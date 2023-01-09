@@ -1,6 +1,4 @@
-### Sprint3 : 상세 페이지 API
-
----
+## Sprint3 : 상세 페이지 API
 
 - 정리된 DB를 바탕으로 API를 작성
 - 전체 user에 대한 정보를 보내주는 API & 선택된 user에 관련 상세한 정보를 보내주는 API

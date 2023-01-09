@@ -1,7 +1,5 @@
 ## Sprint1 : TypeScript & PostgreSQL
 
----
-
 ### 👉 TypeScript
 
 - TypeScript는 2012년에 발표된 오픈 소스 프로그래밍 언어로, 대규모 JavaScript 애플리케이션 개발을 목적으로 Microsoft에 의해 개발
@@ -21,7 +19,7 @@
 
   <span style="font-weight:bold">Why TypeScript?</span>
 
-        VARY는 다른 서비스들에 비해 특히 클라이언트 각각의 input에  따른 output을 나타내기에 그만큼 error를 발생시킬 경우의 수도 많다. 하지만 타입스크립트를 사용함으로 컴파일 과정에서 에러를 확인할 수 있게되어 개발단계에서 인지하지 못한 실수나 예상밖에 상황으로부터 오는 에러들 또한  미연에 방지할 수 있게 된다. 따라서 VARY는 사용자가 겪는 불편을 줄이고 프로그램의 높은 안정성을 가져올 수 있을 것이다.
+  VARY는 다른 서비스들에 비해 특히 클라이언트 각각의 input에 따른 output을 나타내기에 그만큼 error를 발생시킬 경우의 수도 많다. 하지만 타입스크립트를 사용함으로 컴파일 과정에서 에러를 확인할 수 있게되어 개발단계에서 인지하지 못한 실수나 예상밖에 상황으로부터 오는 에러들 또한 미연에 방지할 수 있게 된다. 따라서 VARY는 사용자가 겪는 불편을 줄이고 프로그램의 높은 안정성을 가져올 수 있을 것이다.
 
 ### <span style="font-weight:bold">👉 PostgreSQL</span>
 
@@ -39,17 +37,13 @@
     - 시스템과 연관되어 Data 를 분석하고 의미있는 정보로 치환하거나, 복잡한 모델링을 가능하게끔 하는 분석 방법
     - SELECT Query 를 통한 데이터 스캔 Operation)
 
-    <span style="font-weight:bold">Why PostgreSQL?</span>
+  <span style="font-weight:bold">Why PostgreSQL?</span>
 
-    VARY에서는 이메일과 웹페이지를 만들어주는 mobile builder의 역할 뿐만 아니라 그 데이터들을 분석하여 각각의 서비스들에 대한 통계 또한 제공해야한다. 또한 VARY의 서비스는 Online Transaction Processing(OLTP)이 매우 중요하기에 PostgreSQL을 사용함으로 그 이점을 사용할 수 있을 것이다.(무엇보다도 오픈소스이기에 무료로 사용가능하다는 점이 아주 매력적!)
+  VARY에서는 이메일과 웹페이지를 만들어주는 mobile builder의 역할 뿐만 아니라 그 데이터들을 분석하여 각각의 서비스들에 대한 통계 또한 제공해야한다. 또한 VARY의 서비스는 Online Transaction Processing(OLTP)이 매우 중요하기에 PostgreSQL을 사용함으로 그 이점을 사용할 수 있을 것이다.(무엇보다도 오픈소스이기에 무료로 사용가능하다는 점이 아주 매력적!)
 
 ### _용어정리_
 
-<aside>
-💡 정적타입언어( TypeScript, Java, C++)
+`정적타입언어`( TypeScript, Java, C++)
 
 - 자바스크립트(동적타입언어)의 모든 기능을 포함하면서 정적타입을 지원
 - 정적 타입 언어(JS,Python,PHP)는 변수의 타입이 컴파일 타임에 결정된다!(동적 타입 언어는 런타임에 결정된다)
-</aside>
-
-![스크린샷 2023-01-04 오후 10.59.43.png](%5B%E1%84%80%E1%85%B5%E1%84%8B%E1%85%A5%E1%86%B8%E1%84%92%E1%85%A7%E1%86%B8%E1%84%8B%E1%85%A5%E1%86%B8%5D%20VARY%2013be1f42830c4814b1fe197fa692bbd7/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2023-01-04_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_10.59.43.png)
