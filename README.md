@@ -8,7 +8,7 @@
 
 ## 회고
 
-- [인턴십 회고](https://amethyst-mahogany-d44.notion.site/VARY-0610686e50ca4e09a4a7ad3fe7ae42dd)
+- [인턴십 회고](https://amethyst-mahogany-d44.notion.site/626e60b8f96045d9bd6fe20b65d0a14d)
 
 ## 스프린트
 
